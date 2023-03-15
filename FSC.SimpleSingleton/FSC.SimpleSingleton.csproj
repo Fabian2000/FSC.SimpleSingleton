@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>net6.0;netstandard2.0;netcoreapp3.1;net472</TargetFrameworks>
+	  <ImplicitUsings>disable</ImplicitUsings>
+	  <LangVersion>11</LangVersion>
+    <Nullable>enable</Nullable>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Title>FSC-SimpleSingleton</Title>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Fabian Schlüter</Authors>
+    <Description>SimpleSingleton is a thread-safe singleton pattern implementation in C# that allows registration and retrieval of singleton instances of any type. It ensures that only one instance of a particular type can be created and accessed at a time, providing a globally accessible point of access for these instances.</Description>
+    <Copyright>© Copyright 2023 by Fabian Schlüter</Copyright>
+    <PackageTags>Singleton, Design Patterns, Dependency Injection, Thread Safety, Object Lifetime, Utilities</PackageTags>
+    <PackageReleaseNotes>First Release</PackageReleaseNotes>
+    <IncludeSymbols>False</IncludeSymbols>
+  </PropertyGroup>
+
+</Project>
