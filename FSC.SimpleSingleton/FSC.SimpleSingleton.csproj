@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-	  <TargetFrameworks>net6.0;netstandard2.0;netcoreapp3.1;net472</TargetFrameworks>
-	  <ImplicitUsings>disable</ImplicitUsings>
-	  <LangVersion>11</LangVersion>
+	<TargetFrameworks>net7.0;net6.0;netstandard2.1;net47;net46;net48</TargetFrameworks>
+	<ImplicitUsings>disable</ImplicitUsings>
+	<LangVersion>11</LangVersion>
     <Nullable>enable</Nullable>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Title>FSC-SimpleSingleton</Title>
@@ -14,6 +14,22 @@
     <PackageTags>Singleton, Design Patterns, Dependency Injection, Thread Safety, Object Lifetime, Utilities</PackageTags>
     <PackageReleaseNotes>First Release</PackageReleaseNotes>
     <IncludeSymbols>False</IncludeSymbols>
+    <PackageProjectUrl>https://github.com/Fabian2000/FSC.SimpleSingleton</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Fabian2000/FSC.SimpleSingleton.git</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageId>FSC-SimpleSingleton</PackageId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
